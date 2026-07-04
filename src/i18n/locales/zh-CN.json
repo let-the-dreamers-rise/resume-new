@@ -1,0 +1,160 @@
+{
+  "common": {
+    "signIn": "登录",
+    "signOut": "退出登录",
+    "loading": "加载中...",
+    "on": "开",
+    "off": "关",
+    "close": "关闭",
+    "save": "保存",
+    "cancel": "取消",
+    "edit": "编辑",
+    "delete": "删除",
+    "userId": "用户 ID"
+  },
+  "language": {
+    "label": "语言",
+    "triggerLabel": "语言：{{language}}",
+    "followSystem": "跟随系统",
+    "followSystemWithLanguage": "跟随系统（{{language}}）",
+    "enUS": "English",
+    "zhCN": "中文"
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "文件未找到",
+      "description": "该路径不在 Ashwin 的作品集目录中。",
+      "action": "返回首页"
+    },
+    "generic": {
+      "title": "进程崩溃",
+      "description": "作品集视图未能正常渲染。",
+      "retry": "重试"
+    }
+  },
+  "portfolio": {
+    "shell": {
+      "appTitle": "ashwin-goyal-telemetry",
+      "mode": "桌面作品集模式",
+      "navLabel": "作品集源文件",
+      "mobileNavLabel": "作品集快速导航",
+      "sidebarNote": "公开作品集外壳，仅展示适合招聘场景的联系方式。"
+    },
+    "home": {
+      "headerTitle": "ashwin-goyal-telemetry",
+      "version": "v2.0.4",
+      "integrityTitle": "完整性自动化稳定",
+      "integritySub": "所有验证检查点已在本地确认。",
+      "logs": "日志",
+      "sourceFiles": "源文件",
+      "quickActions": "招聘控制台快捷操作：",
+      "statusReady": "READY: ashwin_goyal@VITB",
+      "env": "ENV: production",
+      "encoding": "UTF-8"
+    },
+    "hero": {
+      "name": "Ashwin Goyal",
+      "title": "VIT Bhopal 计算机科学本科生",
+      "target": "Microsoft 软件工程实习",
+      "summary": "同时专注高规模系统架构与结构化视觉设计执行。目标：Microsoft SWE Internship。",
+      "gpa": "CGPA 8.94/10",
+      "location": "Navi Mumbai, IN"
+    },
+    "metrics": {
+      "shipped": { "label": "已交付", "value": "60+ 系统" },
+      "hackathons": { "label": "黑客松", "value": "45+ 国际场" },
+      "experience": { "label": "经验", "value": "1+ 年" }
+    },
+    "profileFacts": {
+      "role": "角色",
+      "target": "目标",
+      "location": "位置"
+    },
+    "files": {
+      "profile": { "name": "profile.json", "meta": "核心指标、目标标准与方向" },
+      "projects": { "name": "projects.md", "meta": "BidPilot、ZARYNX、DreamOS、Foundry" },
+      "experience": { "name": "experience.json", "meta": "Project Samvardhanam 与交付记录" },
+      "skills": { "name": "skills.sh", "meta": "语言、系统、技术栈与设计能力" },
+      "achievements": { "name": "achievements.yaml", "meta": "教育、研究论文与黑客松" },
+      "telemetry": { "name": "telemetry.log", "meta": "构建信号、测试与交付检查点" }
+    },
+    "actions": {
+      "contact": "cat contact.json",
+      "hire": "sudo hire ashwin"
+    },
+    "projects": {
+      "bidpilot": {
+        "b1": "构建全栈平台，自动化 bid 与 RFP 生命周期，包括 NLP 文档解析、结构化需求提取、合规映射、策略生成和回复草稿。",
+        "b2": "设计后端工作流，将非结构化采购文档转换为采购团队可执行的数据模型。",
+        "b3": "在协作构建周期中应用需求梳理、迭代交付与利益相关方演示。"
+      },
+      "zarynx": {
+        "b1": "设计 TypeScript 与 Node.js 服务，治理 AI agent 何时可自主执行、何时需要人工审批。",
+        "b2": "集成 Auth0 Token Vault 与 JWT 保护 API，核心策略契约 4/4 自动化测试通过。"
+      },
+      "dreamos": {
+        "b1": "开发 React 与 TypeScript 前端，以及 Supabase/PostgreSQL 后端，包含行级安全、同意门控服务函数和只追加审计日志。",
+        "b2": "实现基于用户数据模式的 BFS 图聚类，并加入一键导出和永久删除能力。"
+      },
+      "foundry": {
+        "b1": "构建 /v1/chat/completions REST 网关，包含请求校验、许可执行和每次调用收据，便于追踪。",
+        "b2": "设计 Express API、PostgreSQL、Drizzle ORM 与 React monorepo，支持通过 baseURL 配置接入 OpenAI SDK。"
+      }
+    },
+    "detail": {
+      "back": "cd ../home",
+      "openCommand": "executing {{command}}",
+      "status": "status: readable",
+      "copyEmail": "复制邮箱",
+      "emailCopied": "邮箱已复制",
+      "contactTitle": "contact.json",
+      "hireTitle": "hire-request.sh",
+      "sendSignal": "发送信号",
+      "availability": "可沟通 SWE 实习、产品工程协作，以及偏重设计的软件构建。"
+    },
+    "sections": {
+      "summary": "职业摘要",
+      "education": "教育经历",
+      "coursework": "课程",
+      "experience": "经历",
+      "skills": "技术技能",
+      "projects": "精选项目",
+      "achievements": "额外信号",
+      "telemetry": "遥测输出",
+      "contact": "联系界面"
+    },
+    "profile": {
+      "summary": "VIT Bhopal 计算机科学本科生，拥有 1+ 年 Java、C++ 与 TypeScript 面向对象编程经验。从 60+ 已交付系统中精选项目，均来自协作团队环境。熟悉数据结构、算法、API 设计、自动化测试与 CI/CD。",
+      "education": "Vellore Institute of Technology (VIT), Bhopal。B.Tech, Computer Science and Engineering，2024-2028。CGPA: 8.94 / 10.0。",
+      "coursework": "Data Structures & Algorithms、Object-Oriented Programming、Database Systems、Operating Systems、Computer Networks、Discrete Mathematics、Probability & Statistics。"
+    },
+    "experience": {
+      "title": "Project Samvardhanam",
+      "role": "联合创始人兼技术负责人",
+      "period": "2025 至今",
+      "body": "独立构建并部署全栈社会影响力平台，覆盖捐赠、志愿者入职与参与度分析，从需求到生产环境完整交付。"
+    },
+    "skills": {
+      "languages": "语言",
+      "engineering": "工程能力",
+      "stack": "技术栈",
+      "fundamentals": "计算机基础",
+      "design": "平面设计"
+    },
+    "achievements": {
+      "research": "合著者：基于信息论方法的心血管人群分析。论文 2026 年在 Diagnostics 审稿中。",
+      "awards": "Meta PyTorch Hackathon Finalist；AWS 10,000 AI Ideas 与 Convolve Semifinalist；NPTEL Marketing Analytics 金牌；NPTEL Cloud Computing 银牌。",
+      "delivery": "45+ 场国际黑客松，完成用户需求界定、MVP 构建，并在 24-48 小时内交付。"
+    },
+    "contact": {
+      "name": "Ashwin Goyal",
+      "location": "Navi Mumbai, India",
+      "phone": "+91 8097251640",
+      "email": "letthedreamersrise@gmail.com",
+      "github": "GitHub",
+      "portfolio": "Portfolio",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

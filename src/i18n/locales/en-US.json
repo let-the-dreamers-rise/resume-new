@@ -1,0 +1,160 @@
+{
+  "common": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "loading": "Loading...",
+    "on": "On",
+    "off": "Off",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "userId": "User ID"
+  },
+  "language": {
+    "label": "Language",
+    "triggerLabel": "Language: {{language}}",
+    "followSystem": "System",
+    "followSystemWithLanguage": "System ({{language}})",
+    "enUS": "English",
+    "zhCN": "Chinese"
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "File not found",
+      "description": "That route is not in Ashwin's portfolio directory.",
+      "action": "Return home"
+    },
+    "generic": {
+      "title": "Process crashed",
+      "description": "The portfolio view could not render cleanly.",
+      "retry": "Retry"
+    }
+  },
+  "portfolio": {
+    "shell": {
+      "appTitle": "ashwin-goyal-telemetry",
+      "mode": "desktop portfolio mode",
+      "navLabel": "Portfolio source files",
+      "mobileNavLabel": "Portfolio quick navigation",
+      "sidebarNote": "Public portfolio shell. Recruiter-safe contact details only."
+    },
+    "home": {
+      "headerTitle": "ashwin-goyal-telemetry",
+      "version": "v2.0.4",
+      "integrityTitle": "INTEGRITY AUTOMATION STABLE",
+      "integritySub": "All verification checkpoints verified locally.",
+      "logs": "Logs",
+      "sourceFiles": "SOURCE FILES",
+      "quickActions": "Recruiter Console Quick Actions:",
+      "statusReady": "READY: ashwin_goyal@VITB",
+      "env": "ENV: production",
+      "encoding": "UTF-8"
+    },
+    "hero": {
+      "name": "Ashwin Goyal",
+      "title": "B.Tech CSE Undergraduate @ VIT Bhopal",
+      "target": "Microsoft Software Engineering Internship",
+      "summary": "Dual focus on high-scale systems architecture and structural design execution. Target: Microsoft SWE Internship.",
+      "gpa": "CGPA 8.94/10",
+      "location": "Navi Mumbai, IN"
+    },
+    "metrics": {
+      "shipped": { "label": "SHIPPED", "value": "60+ Systems" },
+      "hackathons": { "label": "HACKATHONS", "value": "45+ Int'l" },
+      "experience": { "label": "EXPERIENCE", "value": "1+ Years" }
+    },
+    "profileFacts": {
+      "role": "role",
+      "target": "target",
+      "location": "location"
+    },
+    "files": {
+      "profile": { "name": "profile.json", "meta": "Core metrics, target criteria and goals" },
+      "projects": { "name": "projects.md", "meta": "BidPilot, ZARYNX, DreamOS, Foundry" },
+      "experience": { "name": "experience.json", "meta": "Project Samvardhanam and delivery record" },
+      "skills": { "name": "skills.sh", "meta": "Languages, systems, stack and design tools" },
+      "achievements": { "name": "achievements.yaml", "meta": "Education, research paper and hackathons" },
+      "telemetry": { "name": "telemetry.log", "meta": "Build signals, tests and delivery checkpoints" }
+    },
+    "actions": {
+      "contact": "cat contact.json",
+      "hire": "sudo hire ashwin"
+    },
+    "projects": {
+      "bidpilot": {
+        "b1": "Built a full-stack platform automating the bid and RFP lifecycle with NLP document parsing, structured requirement extraction, compliance mapping, strategy generation and response drafting.",
+        "b2": "Engineered backend workflows that convert unstructured procurement documents into actionable data models for sourcing teams.",
+        "b3": "Applied requirement gathering, iterative delivery and stakeholder demos in a cooperative build cycle."
+      },
+      "zarynx": {
+        "b1": "Designed a TypeScript and Node.js service that governs when AI agents can execute autonomously versus requiring human approval.",
+        "b2": "Integrated Auth0 Token Vault and JWT-secured APIs, with 4/4 automated tests passing on core policy contracts."
+      },
+      "dreamos": {
+        "b1": "Developed a React and TypeScript frontend with Supabase/PostgreSQL backend, row-level security, consent-gated server functions and append-only audit trails.",
+        "b2": "Implemented BFS graph clustering over user data patterns, plus one-click export and permanent deletion."
+      },
+      "foundry": {
+        "b1": "Built a /v1/chat/completions REST gateway with request validation, license enforcement and per-call receipts for traceability.",
+        "b2": "Architected an Express API, PostgreSQL, Drizzle ORM and React monorepo for drop-in OpenAI SDK integration."
+      }
+    },
+    "detail": {
+      "back": "cd ../home",
+      "openCommand": "executing {{command}}",
+      "status": "status: readable",
+      "copyEmail": "Copy email",
+      "emailCopied": "Email copied",
+      "contactTitle": "contact.json",
+      "hireTitle": "hire-request.sh",
+      "sendSignal": "Send signal",
+      "availability": "Available for SWE internship conversations, product engineering collaborations and design-heavy software builds."
+    },
+    "sections": {
+      "summary": "Professional Summary",
+      "education": "Education",
+      "coursework": "Coursework",
+      "experience": "Experience",
+      "skills": "Technical Skills",
+      "projects": "Selected Projects",
+      "achievements": "Additional Signals",
+      "telemetry": "Telemetry Output",
+      "contact": "Contact Interface"
+    },
+    "profile": {
+      "summary": "Computer Science undergraduate at VIT Bhopal with 1+ years of object-oriented programming in Java, C++ and TypeScript. Selected projects below from 60+ shipped systems built in cooperative team environments. Strong grasp of data structures, algorithms, API design, automated testing and CI/CD.",
+      "education": "Vellore Institute of Technology (VIT), Bhopal. B.Tech, Computer Science and Engineering, 2024-2028. CGPA: 8.94 / 10.0.",
+      "coursework": "Data Structures & Algorithms, Object-Oriented Programming, Database Systems, Operating Systems, Computer Networks, Discrete Mathematics, Probability & Statistics."
+    },
+    "experience": {
+      "title": "Project Samvardhanam",
+      "role": "Co-Founder & Technical Lead",
+      "period": "2025-Present",
+      "body": "Independently built and deployed a full-stack social-impact platform for donations, volunteer onboarding and engagement analytics from requirements through production."
+    },
+    "skills": {
+      "languages": "Languages",
+      "engineering": "Engineering",
+      "stack": "Stack",
+      "fundamentals": "CS Fundamentals",
+      "design": "Graphic Design"
+    },
+    "achievements": {
+      "research": "Co-author: cardiovascular population analysis via information-theoretic methods. Manuscript under review, Diagnostics, 2026.",
+      "awards": "Meta PyTorch Hackathon Finalist; AWS 10,000 AI Ideas & Convolve Semifinalist; NPTEL Gold in Marketing Analytics; NPTEL Silver in Cloud Computing.",
+      "delivery": "45+ international hackathons with user requirement scoping, MVP builds and shipping under 24-48 hour deadlines."
+    },
+    "contact": {
+      "name": "Ashwin Goyal",
+      "location": "Navi Mumbai, India",
+      "phone": "+91 8097251640",
+      "email": "letthedreamersrise@gmail.com",
+      "github": "GitHub",
+      "portfolio": "Portfolio",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

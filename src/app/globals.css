@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-primary: #EFB800;
+  --color-secondary: #9CCC65;
+  --color-accent: #0D0E11;
+  --color-border: #1C1F26;
+  --color-text-primary: #E6E8ED;
+  --color-text-secondary: #8F95A3;
+  --color-text-muted: #4A4F5A;
+  --color-states-success: #9CCC65;
+  --color-states-warning: #FFCA28;
+  --color-states-error: #EF5350;
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-body);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-destructive: var(--destructive);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+}
+
+:root {
+  --background: #0D0E11;
+  --foreground: #E6E8ED;
+  --card: #0F1014;
+  --card-foreground: #E6E8ED;
+  --popover: #0F1014;
+  --popover-foreground: #E6E8ED;
+  --primary: #EFB800;
+  --primary-foreground: #0D0E11;
+  --secondary: #9CCC65;
+  --secondary-foreground: #0D0E11;
+  --muted: #13151A;
+  --muted-foreground: #8F95A3;
+  --accent: #0D0E11;
+  --accent-foreground: #E6E8ED;
+  --destructive: #EF5350;
+  --border: #1C1F26;
+  --input: #1C1F26;
+  --ring: #EFB800;
+  --app-primary: #EFB800;
+  --app-success: #9CCC65;
+  --app-warning: #FFCA28;
+  --app-error: #EF5350;
+  --app-accent: #9CCC65;
+  --app-bg: #0D0E11;
+  --app-surface: #0F1014;
+  --app-surface-raised: #13151A;
+  --app-border: #1C1F26;
+  --app-text: #E6E8ED;
+  --app-text-secondary: #8F95A3;
+  --app-text-muted: #4A4F5A;
+  --radius: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  border-color: var(--app-border);
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+  background: var(--app-bg);
+}
+
+body {
+  min-height: 100svh;
+  margin: 0;
+  background: var(--app-bg);
+  color: var(--app-text);
+  font-family: var(--font-body), monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+button,
+a,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--app-primary) 35%, transparent);
+  color: var(--app-text);
+}
+
+.terminal-grid {
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--app-border) 65%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--app-border) 65%, transparent) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.scanline::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent, rgba(239, 184, 0, 0.035), transparent);
+  background-size: 100% 6px;
+  opacity: 0.45;
+  mix-blend-mode: screen;
+}
