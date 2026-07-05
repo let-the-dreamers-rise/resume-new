@@ -25,11 +25,11 @@ export function TerminalLocaleControl() {
     if (!mounted) return;
     const sync = () => setPreference(getLocalePreference());
     i18n.on("languageChanged", sync);
-    window.addEventListener("eazo-locale-preference-changed", sync);
+    window.addEventListener("app-locale-preference-changed", sync);
     window.addEventListener("storage", sync);
     return () => {
       i18n.off("languageChanged", sync);
-      window.removeEventListener("eazo-locale-preference-changed", sync);
+      window.removeEventListener("app-locale-preference-changed", sync);
       window.removeEventListener("storage", sync);
     };
   }, [i18n, mounted]);

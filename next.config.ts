@@ -4,8 +4,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // Transpile @eazo/sdk package.
-  transpilePackages: ["@eazo/sdk"],
   // RFC1918 LAN ranges + localhost for `next dev` HMR over Wi-Fi.
   allowedDevOrigins: [
     "*.e2b.app",

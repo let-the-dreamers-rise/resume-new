@@ -4,9 +4,7 @@ import { upsertUser } from "@/lib/db/queries";
 
 /**
  * GET /api/user/profile
- * Decrypts the x-eazo-session header and returns the authenticated user's profile.
- * Works for both Eazo Mobile and Web — both send the same encrypted session shape.
- * Also upserts the user into the local DB so user info is always up to date.
+ * Returns the authenticated user's profile.
  */
 export async function GET(request: NextRequest) {
   const auth = requireAuth(request);
